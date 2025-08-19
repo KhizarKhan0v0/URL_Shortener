@@ -15,19 +15,22 @@ It converts long URLs into short and shareable links, while also tracking click 
 ---
 
 ## 📂 Project Structure
+```text
 📦 url-shortener
-┣ 📂 Controllers
-┃ ┗ 📜 url.controller.js # Business logic for handling URLs
-┣ 📂 Models
-┃ ┗ 📜 url.js # Mongoose schema for URLs
-┣ 📂 Routes
-┃ ┣ 📜 pages.routes.js # Routes for rendering EJS views
-┃ ┗ 📜 url.routes.js # Routes for API endpoints (shorten, redirect)
-┣ 📂 views
-┃ ┣ 📜 admin.ejs # Admin dashboard view
-┃ ┗ 📜 index.ejs # Main homepage view
-┣ 📜 db.service.js # MongoDB connection
-┣ 📜 index.js # Entry point (Express server)
-┣ 📜 package.json # Project dependencies
-┣ 📜 package-lock.json
-┣ 📜 .env # Environment variables
+ ┣ 📂 Controllers
+ ┃ ┗ 📜 url.controller.js      # Handles URL logic
+ ┣ 📂 Models
+ ┃ ┗ 📜 url.js                 # Mongoose schema for URLs
+ ┣ 📂 Routes
+ ┃ ┣ 📜 pages.routes.js        # Renders views (EJS pages)
+ ┃ ┗ 📜 url.routes.js          # API endpoints (shorten, redirect)
+ ┣ 📂 views
+ ┃ ┣ 📜 admin.ejs              # Admin dashboard
+ ┃ ┗ 📜 index.ejs              # Homepage (URL input form)
+ ┣ 📜 db.service.js            # MongoDB connection
+ ┣ 📜 index.js                 # Main server entry point
+ ┣ 📜 package.json             # Project dependencies
+ ┣ 📜 package-lock.json        
+ ┣ 📜 .env                     # Environment variables
+ ┗ 📦 node_modules
+
