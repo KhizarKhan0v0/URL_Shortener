@@ -36,11 +36,9 @@ It converts long URLs into short and shareable links, while also tracking click 
 ```
 ---
 
----
-
 ## ⚙️ Setup Instructions
-```bash
 Run Following Commands
+```bash
 npm install
 npm start
 ```
