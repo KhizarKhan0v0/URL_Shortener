@@ -10,8 +10,8 @@ It converts long URLs into short and shareable links, while also tracking click 
 - Redirect to the original URL with a single click  
 - Track how many times a shortened link is used  
 - Admin panel (EJS views) for managing URLs  
-- Lightweight and easy to set up  
-
+- Lightweight and easy to set up
+  
 ---
 
 ## 📂 Project Structure
@@ -32,4 +32,22 @@ It converts long URLs into short and shareable links, while also tracking click 
  ┣ 📜 package.json             # Project dependencies
  ┣ 📜 package-lock.json        
  ┣ 📜 .env                     # Environment variables
+
+```
+---
+
+---
+
+## ⚙️ Setup Instructions
+```bash
+Run Following Commands
+npm install
+npm start
+```
+### 1. Clone the Repository
+```bash
+git clone https://github.com/KhizarKhan0v0/url-shortener.git
+cd url-shortener
+```
+
 
