@@ -32,5 +32,4 @@ It converts long URLs into short and shareable links, while also tracking click 
  ┣ 📜 package.json             # Project dependencies
  ┣ 📜 package-lock.json        
  ┣ 📜 .env                     # Environment variables
- ┗ 📦 node_modules
 
